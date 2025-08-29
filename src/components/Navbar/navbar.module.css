@@ -1,0 +1,58 @@
+.navbar {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-top: 5px;
+  padding-left: 20px;
+
+  background: #fff;
+  border-top: 1px solid rgba(128, 128, 128, 0.2);
+  box-shadow: 0px 2px 6px 0px rgba(34, 60, 80, 0.1);
+}
+
+.nav {
+  max-width: 1366px;
+  margin: 0;
+  gap: 20px;
+  display: flex;
+}
+
+.navChild {
+  list-style: none;
+  text-decoration: none;
+
+  padding: 5px 10px;
+  transition: border-color 0.3s;
+  border-bottom: 3px solid transparent;
+
+  font-weight: 500;
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.navChild:hover,
+.navChild:hover .icon,
+.navChild:hover .iconChart {
+  color: #4864e3 !important;
+  border-color: #4864e3 !important;
+}
+
+.iconChart {
+  padding: 4px !important;
+  border-left: 1px solid gray !important;
+  border-bottom: 1px solid gray !important;
+  border-top: none !important;
+  border-right: none !important;
+  border-radius: 0 !important;
+}
+
+.icon {
+  font-size: 36px !important;
+  padding: 4px !important;
+  border-radius: 0 !important;
+}
