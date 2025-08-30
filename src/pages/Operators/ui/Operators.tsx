@@ -6,13 +6,13 @@ import { useState } from 'react';
 const Operators = () => {
   const [open,setOpen]=useState(false)
   return (
-    <div className="min-h-screen flex flex-col gap-y-4 bg-zinc-100 pt-10 py-5 px-10">
-      <div className="flex justify-between px-7 py-7 items-center rounded-2xl bg-white shadow-md">
+    <div className="min-h-screen flex flex-col gap-y-4 bg-zinc-100 pt-10 py-5 p-1 md:px-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-y-3 gap-x-4 justify-between px-7 py-7 items-center rounded-2xl bg-white shadow-md">
         <div className='flex  border-1 border-zinc-200 px-1 py-1   rounded-md '>
           <SearchIcon style={{ color: "grey" }} />
           <input type="text" placeholder='Tel raqami yoki ism bilan...' className="w-60 px-2 focus:outline-none" />
         </div>
-        <div>
+        <div className='flex justify-end'>
           <button onClick={()=>setOpen(true)} className='bg-blue-800 p-2 flex justify-center items-center rounded-full text-white hover:cursor-pointer hover:shadow-xl hover:bg-blue-500 transform transition-colors hover:text-white'>
             <PersonAddAltIcon />
           </button>
@@ -29,7 +29,7 @@ const Operators = () => {
           <div className="bg-white p-6 rounded-2xl shadow-lg w-96 relative">
             <button
               onClick={() => setOpen(false)}
-              className="absolute top-4 right-4 hover:cursor-pointer text-black hover:text-gray-800"
+              className="absolute top-6 font-bold right-6 hover:cursor-pointer text-black hover:text-gray-800"
             >
               ✕
             </button>
