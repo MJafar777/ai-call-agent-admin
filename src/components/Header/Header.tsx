@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header>
       <div className="grid grid-cols-1 gap-y-4 md:grid-cols-2  px-4 py-3 shadow-md border-zinc-400 ">
-        <div className="flex gap-x-2 items-center justify-center">
+        <div className="flex gap-x-2 items-center justify-center md:justify-start">
           <div className="p-2 rounded-xl bg-blue-700 text-white">
             <CallIcon />
           </div>
