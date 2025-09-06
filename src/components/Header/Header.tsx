@@ -12,12 +12,14 @@ const Header = () => {
           <p className="font-bold text-xl">AI Call Agent</p>
         </div>
 
+
         <div className='flex gap-x-2 items-center justify-between md:justify-end'>
           <p className="text-xl">Muhammadqodir</p>
           <div className="flex gap-x-2">
             <p className="text-sm px-2 py-1 rounded-full text-white bg-green-300">
               Admin
             </p>
+
 
             <Link to="/Login" className="text-sm">
               <LogoutIcon />
