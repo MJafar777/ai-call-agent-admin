@@ -56,3 +56,8 @@
   padding: 4px !important;
   border-radius: 0 !important;
 }
+
+.active {
+  color: #4864e3 !important;
+  border-color: #4864e3 !important;
+}

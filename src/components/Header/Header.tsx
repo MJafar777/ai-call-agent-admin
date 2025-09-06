@@ -13,7 +13,7 @@ const Header = () => {
         </div>
 
         <div className="flex gap-x-2 items-center justify-center">
-          <p className="text-xl">Muhammadqodir</p>
+          <p className="text-xl">Bobur</p>
 
           <p className="text-sm px-2 py-1 rounded-full text-white bg-green-300">
             Admin
